@@ -1,6 +1,8 @@
 import sqlite3
 import argparse
 
+# second commit
+
 # write decorator function for connection
 def create_table(db_name, table_name):
     con = sqlite3.connect(db_name)
